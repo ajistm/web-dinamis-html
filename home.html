@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+
+    </style>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Company Profil</title>
+
+</head>
+
+<body>
+
+    <section>
+        <ul id="dropdown1" class="dropdown-content'>
+            <li><a href=" ">Networking</a></li>
+            <li><a href="programing.html ">Programing</a></li>
+            <li><a href=" ">IT Security</a></li>
+            <li><a href=" ">IT Management</a></li>
+            <li><a href=" ">Office Aplication</a></li>
+            <li><a href=" ">Desain Grafis</a></li>
+            <li><a href=" ">Video Editing</a></li>
+            <li><a href=" ">Engineering</a></li>
+        </ul>
+        <ul id="dropdown2 " class="dropdown-conten ">
+            <li><a href=" ">Hospital Technology</a></li>
+            <li><a href=" ">Web Development</a></li>
+            <li><a href=" ">Mobile Apps Development</a></li>
+            <li><a href=" ">Cloude Solution</a></li>
+            <li><a href=" ">IT Computer Supply & Service </a></li>
+            <li><a href=" ">Networking</a></li>
+            <li><a href=" ">Digital Marketing</a></li>
+            <li><a href=" ">SEO Consultan</a></li>
+        </ul>
+    </section>
+
+    <div class="navbar-fixed ">
+        <nav>
+            <div class="nav-wrapper ">
+                <a href="#! " class="brand-logo ">Logo</a>
+                <a href="# " data-target="mobile-demo " class="sidenav-trigger "><i class="material-icons ">menu</i></a>
+                <ul class="right hide-on-med-and-down ">
+                    <li><a href="index.html ">Home</a></li>
+                    <li><a href="about_us.html ">About us</a></li>
+                    <li><a class="dropdown-trigger " href="#! " data-target="dropdown1 ">Training<i class="material-icons right ">arrow_drop_down</i></a>
+
+                    </li>
+                    <li><a class="dropdown-trigger " href="#! " data-target="dropdown2 ">IT Solution<i class="material-icons right ">arrow_drop_down</i></a>
+                    </li>
+                    <li><a href=" ">News</a></li>
+                    <li><a href=" ">Registration</a></li>
+                    <li><a href=" ">Client</a></li>
+                    <li><a href=" ">Contact Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>    
+ <div class="navbar-fixed ">
+        <nav class="orange ">
+            <div class="container ">
+                <div class="nav-wrapper ">
+                    <a href="#! " class="brand-logo ">Logo</a>
+                    <a href="# " data-target="mobile-demo " class="sidenav-trigger "><i class="material-icons ">menu</i></a>
+                    <ul class="right hide-on-med-and-down ">
+                        <li><a href="index.html ">Home</a></li>
+                        <li><a href="about_us.html ">About us</a></li>
+                        <li><a class="dropdown-trigger " href="#! " data-target="dropdown1 ">Training<i class="material-icons right ">arrow_drop_down</i></a>
+                        </li>
+                        <li><a class="dropdown-trigger " href="#! " data-target="dropdown2 ">IT Solution<i class="material-icons right ">arrow_drop_down</i></a>
+                        </li>
+                        <li><a href=" ">News</a></li>
+                        <li><a href=" ">Registration</a></li>
+                        <li><a href=" ">Client</a></li>
+                        <li><a href=" ">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav " id="mobile-demo ">
+        <li><a href="index.html ">Home</a></li>
+        <li><a href="about_us.html ">About us</a></li>
+        <li><a class="dropdown-trigger " href="#! " data-target="dropdown1 ">Training<i class="material-icons right ">arrow_drop_down</i></a>
+            <section>
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#! ">one</a></li>
+                    <li><a href="#! ">two</a></li>
+                    <li class="divider " tabindex="-1 "></li>
+                    <li><a href="#! ">three</a></li>
+                    <li><a href="#! "><i class="material-icons ">view_module</i>four</a></li>
+                    <li><a href="#! "><i class="material-icons ">cloud</i>five</a></li>
+                </ul>
+            </section>
+        </li>
+        <li><a class="dropdown-trigger " href="#! " data-target="dropdown2 ">IT Solution<i class="material-icons right ">arrow_drop_down</i></a>
+        </li>
+        <li><a href=" ">News</a></li>
+        <li><a href=" ">Registration</a></li>
+        <li><a href=" ">Client</a></li>
+        <li><a href=" ">Contact Us</a></li>
+    </ul>
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript " src="js/materialize.min.js "></script>
+    <script>
+        const sidenav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sidenav);
+
+        const dropdown = document.querySelectorAll('.dropdown-trigger');
+        M.Dropdown.init(dropdown);
+    </script>
+</body>
+
+<!-- <footer class="orange white-text center flow-text ">
+    <h5>@Web Company Profile</h5>
+</footer> -->
+
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        footer {
+            padding: 20px;
+        }
+        
+        li img {
+            width: 200px;
+        }
+    </style>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Video Editing</title>
+
+</head>
+
+<body>
+
+    <!-- drop down navbar -->
+    <section>
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="Networking.html">Networking</a></li>
+            <li><a href="programing.html">Programing</a></li>
+            <li><a href="it_security.html">IT Security</a></li>
+            <li><a href="it_management.html">IT Management</a></li>
+            <li><a href="office_aplication.html">Office Aplication</a></li>
+            <li><a href="desain_grafis.html">Desain Grafis</a></li>
+            <li><a href="video_editing.html">Video Editing</a></li>
+            <li><a href="">Engineering</a></li>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a href="">Hospital Technology</a></li>
+            <li><a href="">Web Development</a></li>
+            <li><a href="">Mobile Apps Development</a></li>
+            <li><a href="">Cloude Solution</a></li>
+            <li><a href="">IT Computer Supply & Service </a></li>
+            <li><a href="">Networking</a></li>
+            <li><a href="">Digital Marketing</a></li>
+            <li><a href="">SEO Consultan</a></li>
+
+            <ul id="dropdown3" class="dropdown-content">
+                <li><a href="Networking.html">Networking</a></li>
+                <li><a href="programing.html">Programing</a></li>
+                <li><a href="it_security.html">IT Security</a></li>
+                <li><a href="it_management.html">IT Management</a></li>
+                <li><a href="office_aplication.html">Office Aplication</a></li>
+                <li><a href="desain_grafis.html">Desain Grafis</a></li>
+                <li><a href="video_editing.html">Video Editing</a></li>
+                <li><a href="">Engineering</a></li>
+            </ul>
+            <ul id="dropdown4" class="dropdown-content">
+                <li><a href="">Hospital Technology</a></li>
+                <li><a href="">Web Development</a></li>
+                <li><a href="">Mobile Apps Development</a></li>
+                <li><a href="">Cloude Solution</a></li>
+                <li><a href="">IT Computer Supply & Service </a></li>
+                <li><a href="">Networking</a></li>
+                <li><a href="">Digital Marketing</a></li>
+                <li><a href="">SEO Consultan</a></li>
+            </ul>
+    </section>
+    <!-- navbar -->
+    <div class="navbar-fixed ">
+        <nav class="orange">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <a href="#!" class="brand-logo">Logo</a>
+                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about_us.html">About us</a></li>
+                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Training<i class="material-icons right">arrow_drop_down</i></a>
+                        </li>
+                        <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">IT Solution<i class="material-icons right">arrow_drop_down</i></a>
+                        </li>
+                        <li><a href="">News</a></li>
+                        <li><a href="">Registration</a></li>
+                        <li><a href="">Client</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li class="small "><a href="index.html">Home</a></li>
+        <li><a href="about_us.html">About us</a></li>
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown3">Training<i class="material-icons right">arrow_drop_down</i></a>
+        </li>
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown4">IT Solution<i class="material-icons right">arrow_drop_down</i></a>
+        </li>
+        <li><a href="">News</a></li>
+        <li><a href="">Registration</a></li>
+        <li><a href="">Client</a></li>
+        <li><a href="">Contact Us</a></li>
+    </ul>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        const dropDown = document.querySelectorAll('.dropdown-trigger')
+        M.Dropdown.init(dropDown);
+        const sideNav = document.querySelectorAll('.sidenav');
+        M.Sidenav.init(sideNav);
+    </script>
+</body>
+
+<!-- <footer class="orange white-text center flow-text">
+    <h5>@Web Company Profile</h5>
+</footer> -->
+
+</html>
